@@ -31,11 +31,12 @@ npm install
 
 ### Environment variables
 
-create a .env file in the root directory and add these two variables:
+(In order to interact with Google Places API you will need to get your Google API Keys).
+Create a .env file in the root directory and add these two variables:
 
 ```
-REACT_APP_API_KEY='AIzaSyCtaIr8R2J19V1NhhArUl-t2ETuyB_-V54'
-REACT_APP_MAP_ID='fa219295f7032a4c'
+REACT_APP_API_KEY= add-your-google-places-api-key-here
+REACT_APP_MAP_ID= add-your-map-id-here
 
 ```
 
