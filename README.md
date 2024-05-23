@@ -16,7 +16,7 @@ Made by Felipe Saez
 
 ### Clone repo
 ```
-
+git clone https://github.com/Fsaez90/autocomplete.git
 ```
 
 ### CD into directory
@@ -35,4 +35,4 @@ npm install
 npm start
 ```
 
-#### Deployed version of this React App available [Here](https://mellifluous-dusk-21b269.netlify.app/).
+#### Deployed version of this React App available [Here](https://thunderous-khapse-b64453.netlify.app/).
