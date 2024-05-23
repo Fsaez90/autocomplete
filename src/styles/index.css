@@ -1,0 +1,52 @@
+:root {
+  --body_background: #b12f47bd;
+  --body_color: black;
+  --label_color: white;
+  --h3_color: white;
+  --suggestion_color: black;
+}
+
+[data-theme="dark"] {
+  --body_background: #282c34;
+  --body_color: white;
+  --label_color: white;
+  --h2_color: white;
+  --suggestion_color: black;
+}
+
+body {
+  background-color: var(--body_background);
+  color: var(--body_color);
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+h3 {
+  color: var(--h3_color);
+}
+
+label {
+  color: var(--label_color);
+}
+
+.suggestion {
+  color: var(--suggestion_color);
+}
+
+.clear-button {
+  background-color: rgb(157, 17, 17);
+  border-radius: 5px;
+  height: 100%;
+  color: white;
+  border-color: rgb(157, 17, 17);
+}
+
+.bottom-fixed {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  color: white; 
+}
