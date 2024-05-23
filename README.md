@@ -30,9 +30,10 @@ npm install
 ```
 
 ### Environment variables
-```
+
 create a .env file in the root directory and add these two variables:
 
+```
 REACT_APP_API_KEY='AIzaSyCtaIr8R2J19V1NhhArUl-t2ETuyB_-V54'
 REACT_APP_MAP_ID='fa219295f7032a4c'
 
